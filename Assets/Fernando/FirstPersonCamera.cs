@@ -9,22 +9,29 @@ public class FirstPersonCamera : MonoBehaviour
     public Vector2 sensibility;
     public Transform _camera;
 
+    public GameObject _audioClip;
+  
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+      
     }
 
     private void UpdateMove()
     {
+
         float hor = Input.GetAxisRaw("Horizontal");
         float ver = Input.GetAxisRaw("Vertical");
 
+        
         Vector3 velocity = Vector3.zero;
         if (hor != 0 || ver != 0)
         {
             Vector3 direction = (transform.forward * ver + transform.right * hor).normalized;
-
+          
+           
             velocity.y = rb.velocity.y;
             rb.velocity = direction * movementSpeed;
         }
@@ -49,5 +56,14 @@ public class FirstPersonCamera : MonoBehaviour
     {
         UpdateMove();
         MouseLook();
+        if (Input.GetKeyDown("w"))
+        {
+
+            _audioClip.SetActive(true);
+        }
+        if (Input.GetKeyUp("w"))
+        {
+            _audioClip.SetActive(false);
+        }
     }
 }
