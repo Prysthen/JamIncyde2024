@@ -76,3 +76,4 @@ crashlytics-build.properties
 *.meta
 /Assets/ParticlePack
 /Assets/ParticlePack
+*.meta
