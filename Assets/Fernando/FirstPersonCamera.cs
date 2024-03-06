@@ -9,22 +9,28 @@ public class FirstPersonCamera : MonoBehaviour
     public Vector2 sensibility;
     public Transform _camera;
 
+    public AudioClip _audioClip;
+    public SoundManager soundManager;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        soundManager = FindAnyObjectByType<SoundManager>();
     }
 
     private void UpdateMove()
     {
+
         float hor = Input.GetAxisRaw("Horizontal");
         float ver = Input.GetAxisRaw("Vertical");
 
+        
         Vector3 velocity = Vector3.zero;
         if (hor != 0 || ver != 0)
         {
             Vector3 direction = (transform.forward * ver + transform.right * hor).normalized;
-
+            soundManager.PlaySE(_audioClip);
             velocity.y = rb.velocity.y;
             rb.velocity = direction * movementSpeed;
         }
