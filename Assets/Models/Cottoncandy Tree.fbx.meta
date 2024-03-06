@@ -8,47 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cottonsugar_Tree
-<<<<<<< Updated upstream
     second: {fileID: 2100000, guid: 92ac9df12fbf9b146ae1bea6cd96ec1f, type: 2}
-=======
-    second: {fileID: 2100000, guid: 3af91ab5b05b89240895331fb1e266bf, type: 2}
->>>>>>> Stashed changes
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material_Base_color
-<<<<<<< Updated upstream
-    second: {fileID: 2800000, guid: 5ad744bde6d93924aaff00ef410877ad, type: 3}
-=======
-    second: {fileID: 2800000, guid: cdb121a8637ca914f9409b83c8afa60c, type: 3}
->>>>>>> Stashed changes
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material_Metallic
-<<<<<<< Updated upstream
-    second: {fileID: 2800000, guid: 57f93a95c170e1843914564ad9489ce4, type: 3}
-=======
-    second: {fileID: 2800000, guid: 7a2da7fd3fef4d64593fb21f47206664, type: 3}
->>>>>>> Stashed changes
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material_Normal
-<<<<<<< Updated upstream
-    second: {fileID: 2800000, guid: 04e00cc79dd78254eb80b50e8e084219, type: 3}
-=======
-    second: {fileID: 2800000, guid: 178194c9e30ad1d40a7ba51fb6af75cf, type: 3}
->>>>>>> Stashed changes
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Material_Roughness
-<<<<<<< Updated upstream
-    second: {fileID: 2800000, guid: f8b3ad5c2d25fd545945890cd9e2121b, type: 3}
-=======
-    second: {fileID: 2800000, guid: 485ad00c267c51643a0fce07cd530588, type: 3}
->>>>>>> Stashed changes
   materials:
     materialImportMode: 2
     materialName: 0
