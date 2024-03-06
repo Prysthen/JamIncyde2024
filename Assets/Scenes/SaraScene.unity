@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Scenes/SampleScene.unity
 --- !u!1001 &34584912
 PrefabInstance:
@@ -1931,6 +1932,8 @@ PrefabInstance:
 --- !u!1001 &1295487668
 =======
   m_SourcePrefab: {fileID: 100100000, guid: bf2aeb4ddb5538344acbf253eef5ffa8, type: 3}
+=======
+>>>>>>> sara
 --- !u!1001 &1291624717
 >>>>>>> sara:Assets/Scenes/SaraScene.unity
 PrefabInstance:
@@ -1993,7 +1996,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c35ecf40e04494789b679457d97830, type: 3}
+<<<<<<< HEAD
 --- !u!1001 &1359722963
+=======
+--- !u!1001 &4071235744495703226
+>>>>>>> sara
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2001,6 +2008,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: -8679921383154817045, guid: 73006a33b193bc94d819ec8b25b1c42e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.225685
@@ -2099,6 +2107,49 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6441931757938197853, guid: 0961dcab35ddc0046a15f00792ab129a, type: 3}
+=======
+    - target: {fileID: 3880957282181039838, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_Name
+      value: Cottoncandy Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.789916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.6524534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508172198173580388, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+>>>>>>> sara
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -2106,6 +2157,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 0961dcab35ddc0046a15f00792ab129a, type: 3}
 --- !u!1001 &1442148225
 PrefabInstance:
@@ -2610,6 +2662,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65c272e42f8922745bf0126830c28c33, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 72c24662eaadfc24498a576af8eb650a, type: 3}
+>>>>>>> sara
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2657,5 +2712,9 @@ SceneRoots:
   - {fileID: 1078184656}
 =======
   - {fileID: 1291624717}
+<<<<<<< HEAD
   - {fileID: 155680330}
 >>>>>>> sara:Assets/Scenes/SaraScene.unity
+=======
+  - {fileID: 4071235744495703226}
+>>>>>>> sara
