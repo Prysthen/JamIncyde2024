@@ -20,6 +20,12 @@ public class SceneSelect : MonoBehaviour
         StartCoroutine(SceneChange());
     }
 
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        StartCoroutine(SceneChange());
+    }
     IEnumerator SceneChange()
     {
         animator = Trasitionn.GetComponent<Animator>();

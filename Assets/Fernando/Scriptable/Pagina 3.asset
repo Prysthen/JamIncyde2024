@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3dbeb0bfb62fe342b0898c8a2e2a6f3, type: 3}
+  m_Name: Pagina 3
+  m_EditorClassIdentifier: 
+  text: "Mam\xE1 y Pap\xE1 ya no me hacen caso, est\xE1n demasiado ocupados cuidando
+    de mi hermana. \r\n\r\nAyer pap\xE1 y mam\xE1 cuando regresaron a casa ni siquiera
+    me saludaron. \r\n\r\nEn serio la odio y ella me odia. \r\n\r\nDa igual cuanto
+    intente llevarme bien con ella, somos como la noche y el d\xEDa. \r\n\r\nLa odio
+    la odio, ojal\xE1 desaparezca. \r\n"
