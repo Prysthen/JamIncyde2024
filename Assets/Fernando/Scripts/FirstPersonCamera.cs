@@ -16,21 +16,17 @@ public class FirstPersonCamera : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-      
     }
 
     private void UpdateMove()
     {
-
         float hor = Input.GetAxisRaw("Horizontal");
         float ver = Input.GetAxisRaw("Vertical");
-
 
         Vector3 velocity = Vector3.zero;
         if (hor != 0 || ver != 0)
         {
             Vector3 direction = (transform.forward * ver + transform.right * hor).normalized;
-
 
             velocity.y = rb.velocity.y;
             rb.velocity = direction * movementSpeed;
@@ -58,16 +54,11 @@ public class FirstPersonCamera : MonoBehaviour
         MouseLook();
         if (Input.GetKeyDown("d") || (Input.GetKeyDown("s")) || (Input.GetKeyDown("w")) || (Input.GetKeyDown("a")))
         {
-
             _audioClip.SetActive(true);
         }
         if (Input.GetKeyUp("d") || (Input.GetKeyUp("s")) || (Input.GetKeyUp("w")) || (Input.GetKeyUp("a")))
         {
             _audioClip.SetActive(false);
         }
-
-       
-
-
     }
 }
