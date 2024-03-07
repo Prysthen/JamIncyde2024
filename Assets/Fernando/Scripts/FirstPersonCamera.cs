@@ -47,7 +47,7 @@ public class FirstPersonCamera : MonoBehaviour
 
         if (ver != 0)
         {
-            _camera.transform.Rotate(ver * sensibility.y, 0, 0);
+            _camera.transform.Rotate(ver * -sensibility.y, 0, 0);
         }
     }
 
