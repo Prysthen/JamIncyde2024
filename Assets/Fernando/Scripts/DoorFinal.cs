@@ -29,7 +29,6 @@ public class DoorFinal : MonoBehaviour
           
             playerTransform.GetComponent<AudioSource>().volume += fadeSpeed * Time.deltaTime;
         }
-
     }
 
    
@@ -45,16 +44,15 @@ public class DoorFinal : MonoBehaviour
         Debug.Log("Invisible");
         isVisible = false;
         StartCoroutine(MusicBack(time));
-
-
     }
+
     private void OnDisable()
     {
         StartCoroutine(MusicBack(time));
 
         enabled = true;
 
-     int i =  Random.Range(0, spawnpoints.Length);
+        int i =  Random.Range(0, spawnpoints.Length);
 
         transform.position = spawnpoints[i].transform.position;
     }
@@ -69,6 +67,7 @@ public class DoorFinal : MonoBehaviour
             playerTransform.GetComponent<AudioSource>().volume += fadeSpeed * Time.deltaTime;
             isVisible = false;
         }
+<<<<<<< HEAD
         //else
         //{
         //    new WaitForSeconds(time * 3);
@@ -76,6 +75,13 @@ public class DoorFinal : MonoBehaviour
         //}
 
        
+=======
+        else
+        {
+            new WaitForSeconds(time * 3);
+            isVisible = false;
+        }
+>>>>>>> d646e43d3c7d4a819d172a8c02168090b791d1f1
     }
    
 }
