@@ -8,7 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cottonsugar_Tree
-    second: {fileID: 2100000, guid: 92ac9df12fbf9b146ae1bea6cd96ec1f, type: 2}
+    second: {fileID: 2100000, guid: a6fb66f33c08bc343b2b40b0d501023b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material_Base_color
+    second: {fileID: 2800000, guid: 2d6bd5ac76a528c41a94aa8cb4fd208a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material_Metallic
+    second: {fileID: 2800000, guid: ba84a3ff18cd6f14ca0f882e260f3770, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material_Normal
+    second: {fileID: 2800000, guid: cee2c07e86ca86d45b55d85a34a5c86c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Material_Roughness
+    second: {fileID: 2800000, guid: c88438d1860b1114e9c2c293806ca2d2, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
