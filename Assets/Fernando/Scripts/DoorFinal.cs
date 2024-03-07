@@ -67,21 +67,11 @@ public class DoorFinal : MonoBehaviour
             playerTransform.GetComponent<AudioSource>().volume += fadeSpeed * Time.deltaTime;
             isVisible = false;
         }
-<<<<<<< HEAD
-        //else
-        //{
-        //    new WaitForSeconds(time * 3);
-        //    isVisible = false;
-        //}
-
-       
-=======
         else
         {
             new WaitForSeconds(time * 3);
             isVisible = false;
         }
->>>>>>> d646e43d3c7d4a819d172a8c02168090b791d1f1
     }
    
 }
