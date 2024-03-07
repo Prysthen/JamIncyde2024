@@ -12,6 +12,7 @@ public class DoorFinal : MonoBehaviour
     public bool isVisible = false;
     public float time = 5f;
 
+    public GameObject[] spawnpoints;
     void Start()
     {
         audioSource = GetComponent<AudioSource>(); 
@@ -44,7 +45,20 @@ public class DoorFinal : MonoBehaviour
         Debug.Log("Invisible");
         isVisible = false;
         StartCoroutine(MusicBack(time));
+
+
     }
+    private void OnDisable()
+    {
+        StartCoroutine(MusicBack(time));
+
+        enabled = true;
+
+     int i =  Random.Range(0, spawnpoints.Length);
+
+        transform.position = spawnpoints[i].transform.position;
+    }
+
 
     IEnumerator MusicBack(float time)
     {
@@ -57,7 +71,7 @@ public class DoorFinal : MonoBehaviour
         }
         else
         {
-            new WaitForSeconds(time * 10);
+            new WaitForSeconds(time * 3);
             isVisible = false;
         }
 
